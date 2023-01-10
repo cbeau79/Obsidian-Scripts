@@ -140,6 +140,7 @@ while week_number < 47:
                 # print(f'{entry["date"]} is a {day_of_the_week}')
 
                 if day_of_the_week.upper() == day:
+                    day_output += f"#{entry['title']}"
                     day_output += entry['content']
                     day_output += '\n\n'
         
